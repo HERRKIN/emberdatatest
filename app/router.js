@@ -5,7 +5,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-	  this.resource("user", { path: "/user" });
+	  this.resource("users", { path: "/users" });
 
 });
 /*
